@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 100PX;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#main{
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+#nav {
+    position: fixed;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 150px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 99;
+}
+
+#nav h4:hover{
+    color:#C8FE77;
+    font-size: small;
+}
+
+#nav img{
+    height: 75px;
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#page1 h1{
+    font-size: 140px;
+    font-weight: 900px;
+    position: relative;
+    -webkit-text-stroke: 1px black;
+}
+
+#page1 h1::before{
+    content: "EAT. DRINK. PLAY.";
+    position: absolute;
+    color: #C8FE77;
+    top: -6px;
+    right: -5px;
+}
+
+#page1 h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800px;
+}
+
+#page1 h2:hover{
+    color: #c8fe779e;
+}
+
+#page1 p{
+    font-size: 20px;
+    font-weight: 500px;
+    width: 40%;
+    margin-top: 15px;
+}
+
+#page1 p:hover{
+    color: #c8fe779e;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#scroller{
+    height: 80px;
+    background-color: rgba(183, 247, 183, 0.325);
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+#scroller h1{
+    position: relative;
+    font-size: 32px;
+    font-weight: 900px;
+    color: transparent;
+    -webkit-text-stroke: 1px #b8fd51 ;
+}
+
+#scroller h1:hover {
+    color: #9afd06;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+    height: 250px;
+    /* background-color: rgba(238, 130, 238, 0.249); */
+}
+
+#content img{
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+#about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 256px;
+    width: 480px;
+}
+
+#about-us h1{
+    font-size: 60px;
+    font-weight: 900px;
+    margin-top: 30px;
+}
+
+#about-us p{
+    font-size: 18px;
+    font-weight: 250px;
+    margin-top: 5px;
+}
+
+#third-layer{
+    height: 230px;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#card1{
+    height: 200px;
+    width: 200px;
+}
+
+#card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#card2{
+    height: 200px;
+    width: 200px;
+}
+
+#card2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#card3{
+    height: 200px;
+    width: 200px;
+}
+
+#card3 img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#green-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #6bb300;
+    opacity: calc(0.7);
+    height: 160px;
+    object-fit: cover;
+}
+
+#green-div h1{
+    color: black;
+    -webkit-text-stroke: 1px whitesmoke;
+}
+
+#page3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tag-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900px;
+    height: 30%;
+    width: 100%;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.516);
+}
+
+#tag-line h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.6);
+    -webkit-text-stroke: 1px white;
+}
